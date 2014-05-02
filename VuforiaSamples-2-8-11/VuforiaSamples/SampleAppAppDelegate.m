@@ -6,6 +6,7 @@
 #import "SampleAppAppDelegate.h"
 
 #import "SampleAppSelectorViewController.h"
+#import "PostDataViewController.h"
 
 @implementation SampleAppAppDelegate
 
@@ -19,7 +20,8 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    UIViewController *vc = [[[SampleAppSelectorViewController alloc] initWithNibName:@"SampleAppSelectorViewController" bundle:nil] autorelease];
+    /*UIViewController *vc = [[[SampleAppSelectorViewController alloc] initWithNibName:@"SampleAppSelectorViewController" bundle:nil] autorelease];*/
+    PostDataViewController *vc = [[PostDataViewController alloc]initWithNibName:@"PostDataViewController" bundle:nil];
     
     UINavigationController * nc = [[UINavigationController alloc]initWithRootViewController:vc];
     nc.navigationBar.barStyle = UIBarStyleDefault;

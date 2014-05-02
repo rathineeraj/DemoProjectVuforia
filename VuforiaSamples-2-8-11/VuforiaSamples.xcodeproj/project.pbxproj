@@ -116,6 +116,9 @@
 		18FBCF1417EA5EC800FDF286 /* TextureSoccerBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FBCF1017EA5EC800FDF286 /* TextureSoccerBall.png */; };
 		18FBCF1517EA5EC800FDF286 /* TextureTransparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FBCF1117EA5EC800FDF286 /* TextureTransparent.png */; };
 		D6084D3D191282E400977A9D /* libQCAR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6084D3C191282E400977A9D /* libQCAR.a */; };
+		D69B9A781913CBC800E040DC /* PostDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D69B9A761913CBC800E040DC /* PostDataViewController.m */; };
+		D69B9A791913CBC800E040DC /* PostDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D69B9A771913CBC800E040DC /* PostDataViewController.xib */; };
+		D69B9A7B1913CC2C00E040DC /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D69B9A7A1913CC2C00E040DC /* test.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -321,6 +324,16 @@
 		D6084D3A191282DD00977A9D /* WordList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordList.h; sourceTree = "<group>"; };
 		D6084D3B191282DD00977A9D /* WordResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordResult.h; sourceTree = "<group>"; };
 		D6084D3C191282E400977A9D /* libQCAR.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libQCAR.a; path = ../build/lib/arm/libQCAR.a; sourceTree = "<group>"; };
+		D69B9A6F1913CBC800E040DC /* CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCrypto.h; sourceTree = "<group>"; };
+		D69B9A701913CBC800E040DC /* CommonCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCryptor.h; sourceTree = "<group>"; };
+		D69B9A711913CBC800E040DC /* CommonDigest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonDigest.h; sourceTree = "<group>"; };
+		D69B9A721913CBC800E040DC /* CommonHMAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonHMAC.h; sourceTree = "<group>"; };
+		D69B9A731913CBC800E040DC /* CommonKeyDerivation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonKeyDerivation.h; sourceTree = "<group>"; };
+		D69B9A741913CBC800E040DC /* CommonSymmetricKeywrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonSymmetricKeywrap.h; sourceTree = "<group>"; };
+		D69B9A751913CBC800E040DC /* PostDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostDataViewController.h; sourceTree = "<group>"; };
+		D69B9A761913CBC800E040DC /* PostDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostDataViewController.m; sourceTree = "<group>"; };
+		D69B9A771913CBC800E040DC /* PostDataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostDataViewController.xib; sourceTree = "<group>"; };
+		D69B9A7A1913CC2C00E040DC /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -456,6 +469,11 @@
 		1868D1A817BD472000E47566 = {
 			isa = PBXGroup;
 			children = (
+				D69B9A7A1913CC2C00E040DC /* test.jpg */,
+				D69B9A6E1913CBC800E040DC /* CommonCrypto */,
+				D69B9A751913CBC800E040DC /* PostDataViewController.h */,
+				D69B9A761913CBC800E040DC /* PostDataViewController.m */,
+				D69B9A771913CBC800E040DC /* PostDataViewController.xib */,
 				D6084D3C191282E400977A9D /* libQCAR.a */,
 				D6084D0C191282DD00977A9D /* QCAR */,
 				1868D1BA17BD472000E47566 /* VuforiaSamples */,
@@ -788,6 +806,19 @@
 			path = ../build/include/QCAR;
 			sourceTree = "<group>";
 		};
+		D69B9A6E1913CBC800E040DC /* CommonCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				D69B9A6F1913CBC800E040DC /* CommonCrypto.h */,
+				D69B9A701913CBC800E040DC /* CommonCryptor.h */,
+				D69B9A711913CBC800E040DC /* CommonDigest.h */,
+				D69B9A721913CBC800E040DC /* CommonHMAC.h */,
+				D69B9A731913CBC800E040DC /* CommonKeyDerivation.h */,
+				D69B9A741913CBC800E040DC /* CommonSymmetricKeywrap.h */,
+			);
+			path = CommonCrypto;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -871,6 +902,7 @@
 				18CD630517E25297006154DF /* Simple.vertsh in Resources */,
 				1894FD28180749AC009515BD /* UD_about.html in Resources */,
 				18FBCF1217EA5EC800FDF286 /* sodacan.dat in Resources */,
+				D69B9A791913CBC800E040DC /* PostDataViewController.xib in Resources */,
 				18FBCF1317EA5EC800FDF286 /* sodacan.xml in Resources */,
 				18FBCF1417EA5EC800FDF286 /* TextureSoccerBall.png in Resources */,
 				189F1737180DADB80012EA57 /* building_texture.jpeg in Resources */,
@@ -899,6 +931,7 @@
 				1860C8F117F1DDEE00078D7A /* Wood.dat in Resources */,
 				1860C8F217F1DDEE00078D7A /* Wood.xml in Resources */,
 				1860C8F517F1E0AE00078D7A /* VirtualButtonLineShader.fragsh in Resources */,
+				D69B9A7B1913CC2C00E040DC /* test.jpg in Resources */,
 				1860C8F617F1E0AE00078D7A /* VirtualButtonLineShader.vertsh in Resources */,
 				1860C8F817F1E80300078D7A /* CY_about.html in Resources */,
 				1860C90617F1EB6F00078D7A /* IT_about.html in Resources */,
@@ -935,6 +968,7 @@
 				188AD58B17DE3B87008BE2C8 /* WordlistView.m in Sources */,
 				188AD5BB17DE3FD8008BE2C8 /* CloudRecoEAGLView.mm in Sources */,
 				188AD5BD17DE3FD8008BE2C8 /* CloudRecoViewController.mm in Sources */,
+				D69B9A781913CBC800E040DC /* PostDataViewController.m in Sources */,
 				18F1372017E0D83700F5846D /* SampleApplicationShaderUtils.m in Sources */,
 				18FBCF0817EA5D9300FDF286 /* CylinderTargetsEAGLView.mm in Sources */,
 				18FBCF0917EA5D9300FDF286 /* CylinderTargetsViewController.mm in Sources */,
