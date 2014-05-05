@@ -39,7 +39,6 @@
 		1863228A17EBCFA8007C8EC8 /* letter_Q.png in Resources */ = {isa = PBXBuildFile; fileRef = 1863228617EBCFA8007C8EC8 /* letter_Q.png */; };
 		1863228B17EBCFA8007C8EC8 /* letter_R.png in Resources */ = {isa = PBXBuildFile; fileRef = 1863228717EBCFA8007C8EC8 /* letter_R.png */; };
 		1863229217EBD0CA007C8EC8 /* VuforiaObject3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 1863229117EBD0CA007C8EC8 /* VuforiaObject3D.m */; };
-		1868D1B517BD472000E47566 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1868D1B417BD472000E47566 /* UIKit.framework */; };
 		1868D1B717BD472000E47566 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1868D1B617BD472000E47566 /* Foundation.framework */; };
 		1868D1B917BD472000E47566 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1868D1B817BD472000E47566 /* CoreGraphics.framework */; };
 		1868D1BF17BD472000E47566 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1868D1BD17BD472000E47566 /* InfoPlist.strings */; };
@@ -59,7 +58,6 @@
 		188AD5BB17DE3FD8008BE2C8 /* CloudRecoEAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 188AD59417DE3FD8008BE2C8 /* CloudRecoEAGLView.mm */; };
 		188AD5BD17DE3FD8008BE2C8 /* CloudRecoViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 188AD59817DE3FD8008BE2C8 /* CloudRecoViewController.mm */; };
 		188AD5CE17DE407D008BE2C8 /* CR_about.html in Resources */ = {isa = PBXBuildFile; fileRef = 188AD5CD17DE407D008BE2C8 /* CR_about.html */; };
-		188BB41517BD93510080509A /* libQCAR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 188BB41417BD93510080509A /* libQCAR.a */; };
 		188BB41717BD96490080509A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188BB41617BD96490080509A /* Security.framework */; };
 		188BB41917BD96620080509A /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188BB41817BD96620080509A /* CoreMotion.framework */; };
 		188BB41B17BD966A0080509A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188BB41A17BD966A0080509A /* OpenGLES.framework */; };
@@ -115,10 +113,11 @@
 		18FBCF1317EA5EC800FDF286 /* sodacan.xml in Resources */ = {isa = PBXBuildFile; fileRef = 18FBCF0F17EA5EC800FDF286 /* sodacan.xml */; };
 		18FBCF1417EA5EC800FDF286 /* TextureSoccerBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FBCF1017EA5EC800FDF286 /* TextureSoccerBall.png */; };
 		18FBCF1517EA5EC800FDF286 /* TextureTransparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FBCF1117EA5EC800FDF286 /* TextureTransparent.png */; };
-		D6084D3D191282E400977A9D /* libQCAR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6084D3C191282E400977A9D /* libQCAR.a */; };
 		D69B9A781913CBC800E040DC /* PostDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D69B9A761913CBC800E040DC /* PostDataViewController.m */; };
 		D69B9A791913CBC800E040DC /* PostDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D69B9A771913CBC800E040DC /* PostDataViewController.xib */; };
 		D69B9A7B1913CC2C00E040DC /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D69B9A7A1913CC2C00E040DC /* test.jpg */; };
+		D69F4CAF19176A5A0064347C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1868D1B417BD472000E47566 /* UIKit.framework */; };
+		D69F4CB019176B010064347C /* libQCAR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6084D3C191282E400977A9D /* libQCAR.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -205,7 +204,6 @@
 		188AD59717DE3FD8008BE2C8 /* CloudRecoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudRecoViewController.h; sourceTree = "<group>"; };
 		188AD59817DE3FD8008BE2C8 /* CloudRecoViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CloudRecoViewController.mm; sourceTree = "<group>"; };
 		188AD5CD17DE407D008BE2C8 /* CR_about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CR_about.html; sourceTree = "<group>"; };
-		188BB41417BD93510080509A /* libQCAR.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libQCAR.a; path = ../../build/lib/arm/libQCAR.a; sourceTree = "<group>"; };
 		188BB41617BD96490080509A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		188BB41817BD96620080509A /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		188BB41A17BD966A0080509A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -342,18 +340,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				188BB43E17BD99DD0080509A /* CoreVideo.framework in Frameworks */,
+				D69F4CAF19176A5A0064347C /* UIKit.framework in Frameworks */,
+				D69F4CB019176B010064347C /* libQCAR.a in Frameworks */,
 				188BB43C17BD99A60080509A /* CoreMedia.framework in Frameworks */,
 				188BB43A17BD999A0080509A /* AVFoundation.framework in Frameworks */,
 				188BB41D17BD967C0080509A /* SystemConfiguration.framework in Frameworks */,
 				188BB41B17BD966A0080509A /* OpenGLES.framework in Frameworks */,
 				188BB41917BD96620080509A /* CoreMotion.framework in Frameworks */,
 				188BB41717BD96490080509A /* Security.framework in Frameworks */,
-				D6084D3D191282E400977A9D /* libQCAR.a in Frameworks */,
 				1868D20517BD892800E47566 /* QuartzCore.framework in Frameworks */,
-				1868D1B517BD472000E47566 /* UIKit.framework in Frameworks */,
 				1868D1B717BD472000E47566 /* Foundation.framework in Frameworks */,
 				1868D1B917BD472000E47566 /* CoreGraphics.framework in Frameworks */,
-				188BB41517BD93510080509A /* libQCAR.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,7 +490,6 @@
 		1868D1B317BD472000E47566 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				188BB41417BD93510080509A /* libQCAR.a */,
 				188BB43D17BD99DD0080509A /* CoreVideo.framework */,
 				188BB43B17BD99A60080509A /* CoreMedia.framework */,
 				188BB43917BD999A0080509A /* AVFoundation.framework */,
@@ -1086,6 +1082,7 @@
 					"\"$(SRCROOT)/../../build/lib/arm\"",
 					"../../../build/$(CONFIGURATION)-iphoneos",
 					"/Users/navrajsingh/Downloads/vuforia-sdk-ios-2-8-7/build/lib/arm",
+					/Users/navrajsingh/Documents/DemoProjectVuforia/build/lib/arm,
 				);
 				PRODUCT_NAME = Vuforia;
 				PROVISIONING_PROFILE = "53274BE1-2E1C-426F-B7D3-0F3A78EAADA4";
@@ -1118,6 +1115,7 @@
 					"\"$(SRCROOT)/../../build/lib/arm\"",
 					"../../../build/$(CONFIGURATION)-iphoneos",
 					"/Users/navrajsingh/Downloads/vuforia-sdk-ios-2-8-7/build/lib/arm",
+					/Users/navrajsingh/Documents/DemoProjectVuforia/build/lib/arm,
 				);
 				PRODUCT_NAME = Vuforia;
 				PROVISIONING_PROFILE = "53274BE1-2E1C-426F-B7D3-0F3A78EAADA4";
